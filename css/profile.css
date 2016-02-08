@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+    background: #f5f5f5;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  background: #4B6A78;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background: #078E96;
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar .profile-container {
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar .degree {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.sidebar .education .item {
+    margin-bottom: 15px;
+}
+
+.sidebar .education .meta {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sidebar .education .time {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.sidebar .contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sidebar .contact-list li {
+    margin-bottom: 15px;
+}
+
+.sidebar .contact-list li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar .contact-list .email .fa {
+    font-size: 14px;
+}
+
+.sidebar .container-block {
+    padding: 20px;
+}
+
+.sidebar .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 700;
+    margin-bottom: 15px;
+}
+
+.sidebar .membership-list {
+    margin-bottom: 0;
+}
+
+.sidebar .membership-list li {
+    margin-bottom: 10px;
+}
+
+.sidebar .awards-list li {
+    margin-bottom: 10px;
+}
+
+
+.main {
+    background: #fff;
+    padding: 60px;
+    padding-right: 300px;
+}
+
+.main .section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;   
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main .section-title .fa {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #2e4049;
+    text-align: center; 
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+
+.main .section {
+  margin-bottom: 60px;
+}
+
+.main .summary .positions li {
+    margin-bottom: 10px;
+}
+
+.main .experinces-section .item {
+    margin-bottom: 30px;
+}
+
+.main .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.main .job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.main .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
