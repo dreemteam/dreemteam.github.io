@@ -1,0 +1,38 @@
+.meetings {
+    display: block;
+}
+
+.meetings > a {
+ color: #404040;
+ text-decoration: none; 
+ background-color: transparent;
+}
+
+.meeting-preview {
+ font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+ font-weight: 800;   
+}
+
+a:focus > .meeting-preview  {
+    color: #fff;
+    text-shadow: none;
+    background: #0085a1;
+}
+
+.meeting-title {
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 36px;
+    margin-top: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.meeting-subtitle {
+    font-weight: 300;
+}
+
+.meeting {
+    background-color: white;
+    margin-bottom: 20px;
+}
